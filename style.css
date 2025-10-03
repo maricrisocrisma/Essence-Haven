@@ -1,0 +1,75 @@
+#mainbody{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(log.jpg.jpg);
+    background-size: 920px ;
+    background-position: bottom ;
+
+}
+#mainnav {
+    position: fixed; 
+    bottom: 20;
+    left: 0;
+    width: 100%; 
+    text-align: center;
+}
+#mainnav a{
+   text-decoration: none;
+   display: -moz-box;
+   color: rgb(198, 180, 180);
+   font-size: 15px;
+   list-style: none;
+}
+
+#mainnav a:hover{
+color: rgb(255, 255, 255);
+transition: all 0.3 ease-in-out;
+}
+
+
+
+
+
+#homebody {
+
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    padding: 0;
+    background-color: 0;
+    background-image: url(perfumecover1.jpg);
+    background-size: 1200px;
+    background-position: inherit;
+
+}
+
+.right-center {
+
+    
+text-align: right;
+color: #f0e7e7;
+position: fixed;
+top: 5%;
+right: 0;
+transform: translateY(0, -50%);
+margin: 60px;
+
+
+}
+
+#homenav {
+    position: fixed;
+    bottom: 20;
+    left: 0;
+    width: 100%; 
+
+}
+#homenav a{
+   text-decoration: none;
+   display: -moz-box;
+   color: rgb(198, 180, 180);
+   font-size: 10px;
+   margin: 10px;
+   list-style: none;
+}
+
